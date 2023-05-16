@@ -1,0 +1,26 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  display: block;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 4px double green;
+  color: teal;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+button:disabled  {
+  background-color: gainsboro;
+  border-color: transparent;
+  color: #fff;
+}
